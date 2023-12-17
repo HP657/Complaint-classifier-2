@@ -32,7 +32,7 @@ def besok(text):
     url = 'https://api.matgim.ai/54edkvw2hn/api-keyword-slang'
     headers = {
         'content-type': 'application/json',
-        'x-auth-token': '5ea265fc-0070-4e8b-a0e3-f0ca42451ea4'
+        'x-auth-token': 'api-key'
     }
     data = {
         'document': f'{text}'
